@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "BOFA Deal Clicker",
+  "description": "This extension clicks on Bank of America Deals that haven't been added.",
+  "version": "1.0",
+  "icons": { 
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png" 
+  },
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_title": "Add Deals"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+}
