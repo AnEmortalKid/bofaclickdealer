@@ -1,4 +1,4 @@
-# bofadealer
+# bofaclickdealer
 
 A Chrome Plugin that clicks on unadded deals for Bank of America (Amerideals).
 
