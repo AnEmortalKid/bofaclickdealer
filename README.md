@@ -7,6 +7,12 @@ A Chrome Plugin that clicks on unadded deals for Bank of America (Amerideals).
 | ------------- | ------------- | ---------- |
 | 1.1  | `mccolgfmjoinekplflefhjkdnkcfeacm`  | `omkbmhaechkmhjifjhbacbipifdlagjf` |
 
+The plugin will be active when there are new deals to add:
+![](screenshots/active_page.png)
+
+After the plugin runs, a green banner will display how many deals were added and the plugin will no longer be active:
+![](screenshots/after_executing.png)
+
 # Innerworkings
 
 The plugin uses a Page Action (when you click on the plugin's icon) to execute the `deals.js` script.
