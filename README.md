@@ -5,7 +5,7 @@ A Chrome Plugin that clicks on unadded deals for Bank of America (Amerideals).
 
 | Version  | Plugin ID | Chrome URL ID |
 | ------------- | ------------- | ---------- |
-| 1.1  | `mccolgfmjoinekplflefhjkdnkcfeacm`  | not published |
+| 1.1  | `mccolgfmjoinekplflefhjkdnkcfeacm`  | `omkbmhaechkmhjifjhbacbipifdlagjf` |
 
 # Innerworkings
 
