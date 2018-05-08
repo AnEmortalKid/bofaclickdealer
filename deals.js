@@ -41,16 +41,16 @@ function updateAlert(currCount,dealCount)
 
 loggerino('Loaded.');
 
-var deals = document.getElementsByClassName('addDeal');
+var deals = document.getElementsByClassName('add-deal');
 loggerino('Found ' + deals.length + ' new deals.');
 
 if(deals.length > 0)
 {
   displayAlert(deals.length);
-  
+
   var count = 0;
   var interval = setInterval(
-    function() 
+    function()
     {
       if(count < deals.length)
       {
@@ -63,11 +63,11 @@ if(deals.length > 0)
       {
         clearInterval(interval);
         addedMsg.textContent = deals.length + ' deals successfully added.';
-            
+
         // close after 3 secs
         setTimeout( function() { closePopup() }, 3000);
       }
-    }, 250 );
+    }, 400 );
 }
 
 loggerino('Done adding ' + deals.length + ' deals.');

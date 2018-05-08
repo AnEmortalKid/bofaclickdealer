@@ -3,11 +3,11 @@
 
   "name": "BOFA Deal Clicker",
   "description": "Adds Bank of America Deals that haven't been added by clicking for you.",
-  "version": "1.1",
-  "icons": { 
+  "version": "1.2.0",
+  "icons": {
     "16": "icon16.png",
     "48": "icon48.png",
-    "128": "icon128.png" 
+    "128": "icon128.png"
   },
   "background": {
     "scripts": ["background.js"],
